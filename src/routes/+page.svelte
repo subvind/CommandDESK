@@ -43,7 +43,7 @@
         <br />
         <p>Easily create and manage your productized service.</p>
         <br />
-        <p>Accept monthly subscription plans, manage tasks and communicate using your very own client portal in minutes. No code needed.</p>
+        <p>Accept monthly subscription plans, manage tasks and communicate using your very own client area in minutes. No code needed.</p>
         <br />
         {#if accessToken}
           <a href={`/${decoded.type === 'user' ? decoded.username : `${decoded.ownername}/${decoded.orgname}/accounts/${decoded.accountname}`}`} class="waves-effect yellow black-text lighten-2 btn username">{decoded.username || decoded.accountname}</a>
