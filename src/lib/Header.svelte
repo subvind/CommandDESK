@@ -12,7 +12,7 @@
 
 		setTimeout(() => {
 			var elems3 = document.querySelectorAll('.dropdown-trigger1');
-			var instances = M.Dropdown.init(elems3, {
+			var instances3 = M.Dropdown.init(elems3, {
 				constrainWidth: false,
 			});
 		}, 0)
