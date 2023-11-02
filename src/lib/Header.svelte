@@ -3,33 +3,12 @@
 
 	export let organization: any;
 
-	let playlists: any;
-
 	onMount(async () => {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, {});
 
-		let tubeHostname = window.location.hostname
-		if (tubeHostname === 'localhost') {
-			tubeHostname = 'videos.subvind.com'
-		}
-		// TODO: playlists
-    // const response = await fetch(`https://api.subvind.com/playlists/tubeHostname/${tubeHostname}`, {
-    //   method: 'GET',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   }
-    // });
-
-    // if (response.ok) {
-    //   playlists = await response.json();
-    // } else {
-		// 	const errorData = await response.json();
-    //   alert(errorData.error);
-    // }
-
 		var elems2 = document.querySelectorAll('.collapsible');
-		var instances = M.Collapsible.init(elems2, {});
+		var instances2 = M.Collapsible.init(elems2, {});
 
 		setTimeout(() => {
 			var elems3 = document.querySelectorAll('.dropdown-trigger1');
