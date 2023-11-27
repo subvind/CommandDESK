@@ -43,7 +43,6 @@
 
 <FooterCommand active="DESK" />
 
-
 <style>
   :global(body) {
     background: #eee;
